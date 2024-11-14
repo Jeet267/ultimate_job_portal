@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://ultimate-job-portal.onrender.com',
+    origin:['http://localhost:5173'],
     credentials:true
 }
 
